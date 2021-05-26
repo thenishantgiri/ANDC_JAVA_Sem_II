@@ -18,7 +18,7 @@ public class circle extends shape {
         this.radius = radius;
     }
 
-    public double area() {
-        return Math.PI * radius * radius;
+    public float area() {
+        return (float) (Math.PI * radius * radius);
     }
 }

@@ -22,7 +22,7 @@ public class rectangle extends shape {
         this.breadth = breadth;
     }
 
-    public double area() {
+    public float area() {
         return length * breadth;
     }
 }
