@@ -1,12 +1,19 @@
 package Lab.Lab2.P1;
 
+import java.util.Scanner;
+
 public class TwoDim {
     private int x;
     private int y;
 
     public TwoDim() {
-        this.x = 0;
-        this.y = 0;
+        Scanner scn = new Scanner(System.in);
+
+        System.out.println("Please enter the x Co-ordinate : ");
+        this.x = scn.nextInt();
+
+        System.out.println("Please enter the y Co-ordinate : ");
+        this.y = scn.nextInt();
     }
 
     public TwoDim(int x, int y) {
