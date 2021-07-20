@@ -13,7 +13,10 @@ public class MouseEvents extends Frame implements MouseListener {
 
         label = new Label();
         label.setBounds(80, 100, 100, 40);
-        add(label);        setSize(250, 250);
+
+        add(label);
+
+        setSize(250, 250);
         setLayout(null);
         setVisible(true);
     }
