@@ -9,7 +9,7 @@ class PinkBackground extends Frame {
 
     PinkBackground() {
 
-        super("a string with pink colour as background");
+        super("AWT Pink Background");
         label = new Label("Some Random Text");
 
         label.setBounds(40, 200, 300, 30);
